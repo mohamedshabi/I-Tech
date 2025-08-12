@@ -337,6 +337,7 @@ a{
     .home {
         font-size: 0.5em;
         margin-left: 80%;
+        visibility: hidden;
     }
 
     .header h6{
@@ -356,7 +357,8 @@ a{
     }
 
     .lapss{
-        margin-left: 80px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
 }
