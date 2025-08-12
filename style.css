@@ -1,4 +1,5 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -67,6 +68,55 @@ nav{
     text-align: center;
     display: inline;
     margin-left: 450px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        font-size: 1.5em;
+    }
+
+    .main img,
+    .ptag img {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .ptag {
+        font-size: 1em;
+    }
+
+    .ft table,
+    .ft td {
+        display: block;
+        width: 100%;
+    }
+
+    .buy {
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    nav {
+        margin: 10px;
+        font-size: 0.9em;
+    }
+
+    a {
+        font-size: 0.9em;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    td {
+        vertical-align: top;
+        padding: 15px;
+        width: 50%;
+    }
 }
 
 
@@ -151,6 +201,64 @@ a{
 }
 
 
+.header h6 {
+    font-size: 0.9em;
+    margin-top: 5px;
+    margin-left: 390px;
+    display: inline;
+    text-decoration: underline;
+    
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .products {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    .bar input[type="text"] {
+        width: 90%;
+    }
+
+    .bar{
+        margin-left: 40px;
+    }
+
+    .box, .box2, .box3 {
+        width: 90%;
+    }
+    .box2, .box3{
+        margin-left: 50px;
+    }
+
+    .header h1 {
+        font-size: 1.8em;
+    }
+
+    .header h6 {
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .home {
+        font-size: 0.5em;
+        margin-left: 80%;
+    }
+
+    .header h6{
+        display: inline;
+        margin-left: 7px;
+    }
+    .header h3{
+        text-align: end;
+        font-size: 20px;
+        display: block;
+        margin-top: 10px;
+    }
+}
+
 /* 3RD*/
 
 
@@ -182,8 +290,9 @@ a{
     cursor: pointer;
 }
 .ex{
-    display:inline;
+    display:inline-block;
     margin-left: 250px;
+    text-align: center;
 }
 
 .home{
@@ -195,12 +304,53 @@ a{
 
 .bck{
     font-size: 20px;
+    margin-left: 1px;
+    display: block;
+    margin-right:90px;
     text-align: left;
-    display: inline;
-    margin-right:90px ;
 }
 
 .ex1{
     display: inline;
+    margin-top: 500px;
     margin-left: 400px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 1.8em;
+    }
+
+    .header h6 {
+        font-size: 0.8em;
+        text-align: center;
+        margin-rightt: 50px;
+    }
+
+    .home {
+        font-size: 0.5em;
+        margin-left: 80%;
+    }
+
+    .header h6{
+        display: inline;
+        margin-left: 7px;
+    }
+    .header h3{
+        text-align: end;
+        font-size: 20px;
+        display: block;
+        margin-top: 5px;
+    }
+
+    .bck{
+        margin-right: 90%;
+        visibility: hidden;
+    }
+
+    .lapss{
+        margin-left: 80px;
+    }
+    
 }
