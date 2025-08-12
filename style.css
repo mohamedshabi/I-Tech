@@ -117,6 +117,12 @@ nav{
         padding: 15px;
         width: 50%;
     }
+    .header h3{
+        font-size: 1.1em;
+        margin-top: 8px;
+        font-weight: normal;
+        margin-left: 50px;
+    }
 }
 
 
