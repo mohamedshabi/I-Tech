@@ -5,7 +5,7 @@
 }
 .header{
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     display: block;
     margin-top: 5px;
     background-color:#FFC0CB;
@@ -71,7 +71,7 @@ nav{
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .main {
         flex-direction: column;
         font-size: 1.5em;
@@ -118,11 +118,15 @@ nav{
         width: 50%;
     }
     .header h3{
-        font-size: 1.1em;
+        font-size: 1rem;
         margin-top: 8px;
         font-weight: normal;
         margin-left: 50px;
     }
+
+    .header h1{
+        font-size: 2rem;
+        }
 }
 
 
@@ -217,7 +221,7 @@ a{
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .products {
         flex-direction: column;
         align-items: center;
@@ -236,7 +240,7 @@ a{
         width: 90%;
     }
     .box2, .box3{
-        margin-left: 50px;
+        margin-left: 7px;
     }
 
     .header h1 {
@@ -262,6 +266,22 @@ a{
         font-size: 20px;
         display: block;
         margin-top: 10px;
+    }
+
+    .box{
+        width: 20px;
+        margin-left: 5px;
+    }
+    .txt{
+        margin-left: 25px;
+    }
+
+    .txt2{
+        margin-left: 25px;
+    }
+
+    .txt3{
+        margin-left: 25px;
     }
 }
 
@@ -323,7 +343,7 @@ a{
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .header h1 {
         font-size: 1.8em;
     }
