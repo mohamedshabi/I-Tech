@@ -381,5 +381,9 @@ a{
         margin-left: auto;
         margin-right: auto;
     }
+
+    .bx{
+        margin-left: 40px;
+    }
     
 }
